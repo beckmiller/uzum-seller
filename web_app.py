@@ -45,7 +45,7 @@ col1, col2, col3, col4, col5 = st.columns(5)
 col1.metric("Total Sold Products", f"{total_sold_products:}")
 col2.metric("Total Sales", f"UZS {total_sales:,}", "-8%")
 col3.metric("Count of Selling Categories", count_categories)
-col4.metric("Average Product Price", f"{average_price: ,}")
+col4.metric("Average Product Price", f"UZS {average_price: ,}")
 col4.metric("Average Rating", f"{average_rating}")
 
 
